@@ -1,0 +1,111 @@
+#wrapper{display:grid; grid-template-areas:'nav nav nav nav  ''body body body body' 'footer footer footer footer'; background-color: rgba(29, 26, 219, 1)
+} 
+
+
+#nav{grid-area:nav;text-align: center;}
+#logo{ grid-area: logo; text-align: center; }
+#home{grid-area:home;text-align: center }
+#about{grid-area:about;text-align: center }
+#contact{grid-area:contact; text-align: center}
+#body{grid-area:body; text-align: center;}
+#pic1{grid-area:pic1}
+#name{grid-area:name;padding-top: 100px;padding-left: 5px }
+#footer{grid-area:footer}
+ #nav, #home, #about, #contact, #body, pic1, #footer{border: 5px solid black;}
+
+
+#nav{ display:grid; grid-template-areas: "logo home   about contact "; background-color:rgba(29, 26, 219, 1);  padding: 10px }
+#home, #about, #contact{border: 1px solid red; background-color: black; list-style-type: none;}
+
+#home{ display: inline; padding: 10px; text-decoration: none ;float: left}
+#about{ display:inline;  padding: 10px; text-decoration: none;float:left}
+#contact{ display:inline;padding: 10px; text-decoration: none;float:left}
+#home:hover{background-color: blue; }
+#about:hover{background-color: blue}
+#contact:hover{background-color: blue}
+
+
+#body{display: grid; grid-template-areas: "name pic1 pic1 pic1";  text-align:center; background-color:rgba(129, 171, 221, 1); border-style: solid; border-color:rgba(29, 26, 219, 1);border-width:15px }
+
+#footer{display:grid; background-color: black; border:1px solid red;}
+
+
+
+#wrapper2{display:grid; grid-template-areas:'nav2 nav2 nav2 nav2  ''body2 body2 body2 body2 ' 'footer2 footer2 footer2 footer2'; 
+} 
+
+#nav2{ display:grid; grid-template-areas: "logo2 home2   about2 contact2 "; background-color:rgba(29, 26, 219, 1); padding: 10px}
+
+#body2{display: grid; grid-template-areas: " nz head hk" "pepeha pepeha aboutme aboutme aboutme ";  text-align:center; background-color:rgba(129, 171, 221, 1); border-style: solid; border-color:rgba(29, 26, 219, 1);border-width:15px }
+
+#home2, #about2, #contact2{border: 1px solid red; background-color: black; list-style-type: none;}
+
+#home2{ display: inline; padding:10px ; text-decoration: none ;float: left}
+#about2{ display:inline;  padding:10px ; text-decoration: none;float:left}
+#contact2{ display:inline;padding:10px ; text-decoration: none;float:left}
+#home2:hover{background-color: blue; }
+#about2:hover{background-color: blue}
+#contact2:hover{background-color: blue}
+
+
+
+#nav2{grid-area:nav2;text-align: center;}
+#logo2{ grid-area: logo2; text-align: center; }
+#home2{grid-area:home2;text-align: center }
+#about2{grid-area:about2;text-align: center }
+#contact2{grid-area:contact2; text-align: center}
+#body2{grid-area:body2; text-align: center; position:relative; top 50px; float: right; display: block}
+#footer2{grid-area:footer2}
+#nz{grid-area: nz; text-align: left;padding: 10px}
+#hk{grid-area: hk;text-align:right; padding:5x}
+#aboutme{grid-area: aboutme; text-align: right;background-color: rgba(217, 217, 217, 1); padding: 10px;}
+#pepeha{grid-area: pepeha;text-align: left; background-color: rgba(217, 217, 217, 1); padding 10px}
+ #nav2, #home2, #about2, #contact2, #body2, #footer2{border: 5px solid black;}
+
+
+
+
+#home2, #about2, #contact2{border: 1px solid red; background-color: black; list-style-type: none;}
+#footer2 {display:grid; background-color:black; border:1px solid red;}
+
+
+
+#wrapper3{display:grid; grid-template-areas:'nav3 nav3 nav3 nav3  ''body3 body3 body3 body3' 'footer3 footer3 footer3 footer3'; }
+
+#nav3{ display:grid; grid-template-areas: "logo3 home3   about3 contact3 "; background-color:rgba(29, 26, 219, 1); padding: 10px}
+
+
+#nav3{grid-area:nav;text-align: center;}
+#logo3{ grid-area: logo; text-align: center; }
+#home3{grid-area:home;text-align: center }
+#about3{grid-area:about;text-align: center }
+#contact3{grid-area:contact; text-align: center}
+#body3{grid-area:body; text-align: center;}
+#contactme{grid-area: contactme; text-align: center}
+#details{grid-area: details; text-align: center}
+#footer3{grid-area:footer}
+ #nav3, #home3, #about3, #contact3, #body3, #footer3{border: 5px solid black;}
+
+#home3{ display: inline; padding:10px ; text-decoration: none ;float: left}
+#about3{ display:inline;  padding:10px ; text-decoration: none;float:left}
+#contact3{ display:inline;padding:10px ; text-decoration: none;float:left}
+#home3:hover{background-color: blue; }
+#about3:hover{background-color: blue}
+#contact3:hover{background-color: blue}
+
+#home3, #about3, #contact3{border: 1px solid red; background-color: black; list-style-type: none;}
+
+
+
+
+#body3{display: grid; grid-template-areas: "contactme contactme contactme contactme" "details details details detail";  text-align:center; background-color:rgba(129, 171, 221, 1); border-style: solid; border-color:rgba(29, 26, 219, 1);border-width:15px }
+
+
+#footer3 {display:grid; background-color:black; border:1px solid red;}
+
+
+
+
+
+
+
